@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tfoot > tr > td{
+            text-align: center;
+    </style>
+    <link rel="stylesheet" href="style/nav.css">
+</head>
+<body>
+    <!-- Header start here -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio.html">audio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                <li><a href="audio.html">audio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header end here -->
+
+ <!-- Main start here -->
+    <main>
+    <h1>HTML Table</h1>
+    <table>
+        <caption>Employe Salary Table</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lary Page</td>
+                <td>Founder Goole</td>
+                <td>$1500</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zukarbarg</td>
+                <td>Founder Facebook</td>
+                <td>$2000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Employe : 04</td>
+            </tr>
+        </tfoot>
+    </table>
+    <ul>
+        <li>Table: table</li>
+        <li>Table head: thead </li>
+        <li>Table body: tbody </li>
+        <li>Table footer: tfoot</li>
+        <li>Table Row : tr</li>
+        <li>Table data or cell : td</li>
+        <li>Table head: th </li>
+    </ul>
+</main>
+<!-- Main end here -->
+
+<!-- footer start here -->
+<footer>
+
+</footer>
+<!-- footer end here -->
+</body>
+</html>
